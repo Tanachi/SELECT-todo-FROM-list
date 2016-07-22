@@ -26,3 +26,4 @@ SELECT * FROM tasks ORDER BY created_at DESC;
 INSERT INTO tasks(title, description) VALUES ('mistake 1', 'test entry');
 INSERT INTO tasks(title, description) VALUES ('mistake 2', 'another test entry');
 INSERT INTO tasks(title, description) VALUES ('mistake 3', 'another test entry');
+SELECT * FROM tasks WHERE title LIKE 'mistake%';
