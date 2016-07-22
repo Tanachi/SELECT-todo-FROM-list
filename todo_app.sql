@@ -19,3 +19,4 @@ ALTER TABLE tasks ALTER updated_at SET NOT NULL;
 INSERT INTO tasks(title, description, created_at, updated_at, completed_at)
   VALUES('STUDY SQL', 'Complete this exersise', now(), now());
 INSERT INTO tasks(title, description) VALUES ('Study Postgresql', 'Read all the documentation');
+SELECT * FROM tasks WHERE completed_at = NULL;
