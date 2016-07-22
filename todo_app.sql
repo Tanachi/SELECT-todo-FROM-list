@@ -11,3 +11,4 @@ CREATE TABLE tasks(
   updated_at timestamp,
   completed boolean DEFAULT false;
 );
+ALTER TABLE tasks ADD PRIMARY KEY(id);
