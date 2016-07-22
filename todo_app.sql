@@ -13,3 +13,4 @@ CREATE TABLE tasks(
 );
 ALTER TABLE tasks ADD PRIMARY KEY(id);
 ALTER TABLE tasks DROP IF EXISTS completed;
+ALTER TABLE tasks ADD completed_at timestamp DEFAULT NULL;
