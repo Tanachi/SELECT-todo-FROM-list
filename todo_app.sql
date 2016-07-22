@@ -12,3 +12,4 @@ CREATE TABLE tasks(
   completed boolean DEFAULT false;
 );
 ALTER TABLE tasks ADD PRIMARY KEY(id);
+ALTER TABLE tasks DROP IF EXISTS completed;
