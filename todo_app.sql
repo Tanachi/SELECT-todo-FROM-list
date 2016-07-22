@@ -29,3 +29,5 @@ INSERT INTO tasks(title, description) VALUES ('mistake 3', 'another test entry')
 SELECT title FROM tasks WHERE title LIKE 'mistake%';
 DELETE FROM tasks WHERE title = 'mistake 1';
 SELECT title, description FROM tasks WHERE title LIKE 'mistake%';
+DELETE FROM tasks WHERE title LIKE 'mistake%';
+
